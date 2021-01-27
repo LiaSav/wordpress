@@ -1,0 +1,220 @@
+@media (max-width: 1199.98px) {
+  .container {
+    width: 90%;
+  }
+  .promo .promo_text {
+    font-size: 20px;
+  }
+  .promo .more {
+    margin-top: 63px;
+  }
+  .waiting .waiting_wrapper {
+    flex-wrap: wrap;
+  }
+  .waiting .waiting_wrapper .waiting_item {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .waiting .waiting_wrapper .waiting_item .waiting_descr {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .optimization .optimization_header {
+    font-size: 20px;
+  }
+  .optimization .optimization_text {
+    font-size: 16px;
+  }
+  .finish .finish_wrapper {
+    flex-wrap: wrap;
+  }
+  .finish .finish_wrapper .finish_item {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .finish .finish_wrapper .finish_item .finish_descr {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .gift .gift_text {
+    font-size: 20px;
+  }
+  .webinar .webinar_time {
+    font-size: 34px;
+  }
+}
+@media (max-width: 991.98px) {
+  .promo .promo_btn:hover,
+  .gift .gift_btn:hover {
+    border-radius: 0;
+    transform: scale(1);
+  }
+  .waiting .waiting_wrapper .waiting_item .waiting_img:hover,
+  .finish .finish_wrapper .finish_item .finish_round:hover,
+  .gift .gift_img:hover,
+  .webinar .webinar_img:hover {
+    transform: scale(1);
+  }
+  .simple .title_big {
+    font-size: 70px;
+  }
+  .title {
+    font-size: 31px;
+  }
+  .promo .promo_text {
+    font-size: 18px;
+  }
+  .promo .promo_btn,
+  .gift .gift_btn {
+    font-size: 18px;
+  }
+  .waiting .waiting_wrapper .waiting_item .waiting_descr,
+  .finish .finish_wrapper .finish_item .finish_descr {
+    font-size: 15px;
+  }
+  .optimization {
+    padding: 102px 0 0 0;
+  }
+  .optimization .optimization_header {
+    margin-left: 290px;
+    font-size: 16px;
+  }
+  .optimization .optimization_text {
+    margin-left: 300px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .finish .finish_wrapper .finish_item .finish_descr {
+    width: 70%;
+  }
+  .gift .gift_text {
+    font-size: 18px;
+  }
+  .webinar .webinar_header {
+    font-size: 28px;
+  }
+  .webinar .webinar_time {
+    font-size: 30px;
+  }
+  .webinar .webinar_text {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  .optimization .optimization_img {
+    display: none;
+  }
+  .title {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .simple .title_big {
+    font-size: 60px;
+  }
+  .promo .promo_text {
+    font-size: 16px;
+  }
+  .promo .promo_btn,
+  .gift .gift_btn {
+    width: 280px;
+    margin-top: 60px;
+  }
+  .promo,
+  .waiting,
+  .finish,
+  .gift,
+  .webinar,
+  footer {
+    padding: 51px 0;
+  }
+  .waiting .waiting_header,
+  .finish .finish_header,
+  .webinar .webinar_header {
+    font-size: 25px;
+  }
+  .waiting .waiting_subheader {
+    font-size: 20px;
+  }
+  .waiting .waiting_wrapper .waiting_item .waiting_descr {
+    width: 100%;
+  }
+  .optimization {
+    padding: 51px 0;
+    min-height: 100%;
+  }
+  .optimization .optimization_header {
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+  }
+  .optimization .optimization_text {
+    margin-left: 0;
+  }
+  .finish .finish_wrapper .finish_item .finish_descr {
+    width: 90%;
+  }
+  .webinar .webinar_time {
+    font-size: 27px;
+  }
+}
+@media (max-width: 575.98px) {
+  h1,
+  h2.title {
+    margin-top: 25px;
+  }
+  .simple .title_big {
+    font-size: 40px;
+  }
+  .promo .promo_text {
+    display: none;
+  }
+  .promo .promo_btn {
+    margin-top: 150px;
+  }
+  .promo .promo_btn,
+  .gift .gift_btn {
+    font-size: 16px;
+    width: 240px;
+  }
+  .title,
+  .waiting .waiting_header,
+  .finish .finish_header,
+  .webinar .webinar_header {
+    font-size: 20px;
+  }
+  .waiting .waiting_subheader,
+  .webinar .webinar_text {
+    font-size: 18px;
+  }
+  .optimization .optimization_text,
+  .finish .finish_wrapper .finish_item .finish_descr {
+    font-size: 14px;
+  }
+  .finish .finish_wrapper .finish_item {
+    width: 100%;
+  }
+  .finish .finish_wrapper .finish_item .finish_descr {
+    width: 70%;
+  }
+  .gift .gift_text {
+    line-height: 24px;
+  }
+  .webinar .webinar_img {
+    width: 80%;
+  }
+  .webinar .webinar_time {
+    font-size: 22px;
+  }
+  footer .info,
+  footer a {
+    font-size: 12px;
+  }
+}
